@@ -1,0 +1,14 @@
+<header class="site-topbar">
+  <nav class="site-nav section-wrap" role="navigation" aria-label="Main">
+    <a href="{{ .Site.Home.RelPermalink }}" class="site-brand">
+      <span class="brand-mark">SM</span>
+      <span class="brand-name">{{ .Site.Title }}</span>
+    </a>
+
+    <div class="site-nav-links">
+      {{- range hugo.Data.profile.links -}}
+        <a href="{{ .href }}">{{ .label }}</a>
+      {{- end -}}
+    </div>
+  </nav>
+</header>

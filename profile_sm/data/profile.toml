@@ -1,0 +1,252 @@
+[hero]
+badge = 'Transformation Leader'
+name = 'Satyakam Mohanty'
+title = 'Global Capability Center | Transformation | Change Leadership | Delivery Head | Operational Excellence'
+summary = 'Transformation leader with 24 years of experience in strategy execution, delivery excellence, organizational change, digital transformation, offshoring and outsourcing, and site leadership. Experienced in building and scaling Global Capability Centers and driving measurable operational outcomes through innovation, automation, and process optimisation.'
+
+[[hero.stats]]
+value = '24+'
+label = 'Years experience'
+
+[[hero.stats]]
+value = '60%'
+label = 'Cost reduction'
+
+[[hero.stats]]
+value = '70%'
+label = 'DevOps & AI adoption'
+
+[[hero.stats]]
+value = '10%'
+label = 'ESAT improvement'
+
+[[hero.ctas]]
+label = 'Get in Touch'
+href = 'mailto:satyakam_mohanty@yahoo.com'
+style = 'primary'
+
+[[hero.ctas]]
+label = 'LinkedIn Profile'
+href = 'https://www.linkedin.com/in/satyakammohanty'
+style = 'secondary'
+
+[impact]
+eyebrow = 'Measurable Results'
+title = 'Impact at a Glance'
+
+[[impact.cards]]
+icon = '▲'
+value = 'Financial'
+label = 'Impact'
+description = 'Delivered 60% cost reduction through disciplined execution and operating model changes.'
+
+[[impact.cards]]
+icon = '◆'
+value = 'Operational'
+label = 'Excellence'
+description = 'Improved efficiency by 50% through standardization, automation, and stronger governance.'
+
+[[impact.cards]]
+icon = '●'
+value = 'Digital'
+label = 'Adoption'
+description = 'Advanced DevOps and AI adoption to reach 70% digital enablement.'
+
+[[impact.cards]]
+icon = '✦'
+value = 'People'
+label = 'Experience'
+description = 'Improved ESAT by 10% through people transformation and organizational change.'
+
+[experience]
+eyebrow = 'Career Journey'
+title = 'Work Experience'
+
+[[experience.items]]
+period = 'Dec 2019 — May 2025'
+role = 'Sr. Associate Director - Enterprise Technology'
+company = 'HSBC'
+
+  [[experience.items.bullets]]
+  text = 'Drove digital transformation in Enterprise Technology across people, process, and technology to achieve strategic objectives.'
+
+  [[experience.items.bullets]]
+  text = 'Led India Capability Centre for Risk and Cross Functions Technology, covering project portfolio management, resourcing, location strategy, capability building, site management, and operational excellence.'
+
+  [[experience.items.bullets]]
+  text = 'Established and scaled the India Capability Centre for Non-Financial Risk Technology and spearheaded the engineering engagement initiative Heartbeat.'
+
+[[experience.items]]
+period = 'Jun 2017 — Dec 2019'
+role = 'VP - Global Operations'
+company = 'HSBC'
+
+  [[experience.items.bullets]]
+  text = 'Managed COO Transformation Programme and people transformation initiatives.'
+
+  [[experience.items.bullets]]
+  text = 'Built the COO Center of Excellence offshore and transitioned business management services to the CoE.'
+
+  [[experience.items.bullets]]
+  text = 'Implemented process standardization and automation to drive measurable service delivery improvements.'
+
+[[experience.items]]
+period = 'Jan 2015 — Jun 2017'
+role = 'AVP - Enterprise PMO'
+company = 'HSBC'
+
+  [[experience.items.bullets]]
+  text = 'Served as PMO lead for the Global Standards programme for the APAC region.'
+
+  [[experience.items.bullets]]
+  text = 'Championed the Business Transformation Framework and transitioned regional and in-country PMO services to offshore and near-shore centers.'
+
+[[experience.items]]
+period = 'Aug 2008 — Jan 2015'
+role = 'Manager - CBT&O'
+company = 'Bank of America (BA Continuum India Pvt. Ltd.)'
+
+  [[experience.items.bullets]]
+  text = 'Drove application and process governance for the eCommerce portfolio in Consumer Banking Technology & Operations.'
+
+  [[experience.items.bullets]]
+  text = 'Led service delivery, vendor management, workforce strategy implementation, and PMO for global infrastructure operations.'
+
+  [[experience.items.bullets]]
+  text = 'Recognized for the high-impact Satyam transition programme and for catalysing a culture of innovation.'
+
+[[experience.items]]
+period = 'Jul 2007 — Jul 2008'
+role = 'Deputy Manager'
+company = 'GlobalLogic'
+
+  [[experience.items.bullets]]
+  text = 'Built early leadership experience in technology delivery and team coordination.'
+
+[[experience.items]]
+period = 'Feb 2006 — Jun 2007'
+role = 'Principal Consultant'
+company = 'Manpower'
+
+  [[experience.items.bullets]]
+  text = 'Expanded consulting and delivery coordination responsibilities across client work.'
+
+[[experience.items]]
+period = 'Oct 2002 — Jan 2006'
+role = 'Manager'
+company = 'Logistic Solutions'
+
+  [[experience.items.bullets]]
+  text = 'Managed operational delivery and business coordination in a fast-moving environment.'
+
+[[experience.items]]
+period = 'Feb 2001 — Sep 2002'
+role = 'Computer Programmer (T)'
+company = 'Oswal Chemicals & Fertilisers Ltd.'
+
+  [[experience.items.bullets]]
+  text = 'Built foundational software development and technical problem-solving experience.'
+
+[skills]
+eyebrow = 'Technical Arsenal'
+title = 'Skills & Expertise'
+
+[[skills.groups]]
+title = 'Leadership & Strategy'
+items = ['Strategy Execution', 'Delivery Excellence', 'Organizational Change', 'Site Leadership', 'Operational Excellence']
+
+[[skills.groups]]
+title = 'Transformation & Change'
+items = ['Digital Transformation', 'Offshoring & Outsourcing', 'Capability Building', 'Location Strategy', 'People Transformation']
+
+[[skills.groups]]
+title = 'Delivery & Operations'
+items = ['Project Coordination', 'Project Portfolio Management', 'Resourcing', 'Vendor Management', 'Process Optimisation']
+
+[[skills.groups]]
+title = 'Business & Advisory'
+items = ['Business Development', 'Presales', 'Enterprise PMO', 'Risk Technology', 'Innovation Leadership']
+
+[certs]
+eyebrow = 'Credentials'
+title = 'Certifications'
+
+certifications = [
+  'Certified Corporate Director',
+  "Independent Director's Databank",
+  'Prosci Change Practitioner',
+  'SAFe 4 Agilist',
+  'Certified Scrum Master',
+  'PRINCE2',
+  'MSP',
+  'MoP',
+  'P3O',
+  'ITIL',
+]
+
+[education]
+eyebrow = 'Academic Background'
+title = 'Education'
+
+[[education.items]]
+degree = 'Leading Organizations and Change'
+school = 'MIT Sloan Executive Education'
+note = 'Executive education focused on organizational leadership and change.'
+
+[[education.items]]
+degree = 'Digital Transformation and AI for Leaders'
+school = 'Indian Institute of Management, Indore'
+note = 'Certificate programme focused on digital transformation and AI leadership.'
+
+[[education.items]]
+degree = 'PGDM, Management'
+school = 'Xavier Institute of Management'
+note = 'Postgraduate management education.'
+
+[[education.items]]
+degree = 'Bachelor of Engineering (B.E.), Computer Sc. & Engineering'
+school = 'Bangalore University'
+note = 'Engineering foundation in computer science and engineering.'
+
+[contact]
+eyebrow = "Let's Connect"
+title = 'Get in Touch'
+email = 'satyakam_mohanty@yahoo.com'
+phone = '9000525439'
+linkedin = 'https://www.linkedin.com/in/satyakammohanty'
+closing = 'Hyderabad, India'
+
+[[contact.links]]
+label = 'Email'
+href = 'mailto:hello@yourdomain.com'
+
+[[contact.links]]
+label = 'LinkedIn'
+href = 'https://www.linkedin.com/in/your-profile/'
+
+[[contact.links]]
+label = 'Resume'
+href = '#'
+
+[footer]
+note = 'Designed for clarity. Ready for your details.'
+
+[[links]]
+label = 'Impact'
+href = '#impact'
+
+[[links]]
+label = 'Experience'
+href = '#experience'
+
+[[links]]
+label = 'Skills'
+href = '#skills'
+
+[[links]]
+label = 'Certifications'
+href = '#certs'
+
+[[links]]
+label = 'Contact'
+href = '#contact'

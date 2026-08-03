@@ -1,0 +1,7 @@
+{{- $profile := hugo.Data.profile -}}
+<footer class="site-footer" role="contentinfo">
+  <div class="section-wrap footer-inner">
+    <span>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</span>
+    <span>{{ $profile.footer.note }}</span>
+  </div>
+</footer>

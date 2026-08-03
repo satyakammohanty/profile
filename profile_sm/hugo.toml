@@ -1,0 +1,38 @@
+baseURL = 'http://localhost:1313/'
+locale = 'en-us'
+title = 'Satyakam Mohanty'
+theme = 'ananke'
+
+[params]
+description = 'A single-page portfolio site inspired by a modern executive profile.'
+body_classes = 'profile-shell'
+
+	[params.ananke]
+	show_recent_posts = false
+	custom_css = ['profile.css']
+
+[menu]
+	[[menu.main]]
+	name = 'Impact'
+	url = '#impact'
+	weight = 1
+
+	[[menu.main]]
+	name = 'Experience'
+	url = '#experience'
+	weight = 2
+
+	[[menu.main]]
+	name = 'Skills'
+	url = '#skills'
+	weight = 3
+
+	[[menu.main]]
+	name = 'Certs'
+	url = '#certs'
+	weight = 4
+
+	[[menu.main]]
+	name = 'Contact'
+	url = '#contact'
+	weight = 5

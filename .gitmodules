@@ -1,0 +1,3 @@
+[submodule "profile_sm/themes/ananke"]
+	path = profile_sm/themes/ananke
+	url = https://github.com/gohugo-ananke/ananke

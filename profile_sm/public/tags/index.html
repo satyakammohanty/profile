@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Satyakam Mohanty</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A single-page portfolio site inspired by a modern executive profile.">
+    <meta name="generator" content="Hugo 0.164.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+    
+      <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Satyakam Mohanty" />
+      <link href="/tags/index.xml" rel="feed" type="application/rss+xml" title="Satyakam Mohanty" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/tags/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/tags/">
+	<meta property="og:site_name" content="Satyakam Mohanty">
+	<meta property="og:title" content="Tags">
+	<meta property="og:description" content="A single-page portfolio site inspired by a modern executive profile.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
+
+	<meta itemprop="name" content="Tags">
+	<meta itemprop="description" content="A single-page portfolio site inspired by a modern executive profile.">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Tags">
+	<meta name="twitter:description" content="A single-page portfolio site inspired by a modern executive profile.">
+
+	
+  </head><body class="ma0 profile-shell development is-taxonomy"><header class="site-topbar">
+  <nav class="site-nav section-wrap" role="navigation" aria-label="Main">
+    <a href="/" class="site-brand">
+      <span class="brand-mark">SM</span>
+      <span class="brand-name">Satyakam Mohanty</span>
+    </a>
+
+    <div class="site-nav-links"><a href="#impact">Impact</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#contact">Contact</a></div>
+  </nav>
+</header><main class="pb7" role="main">
+  <article class="cf pa3 pa4-m pa4-l">
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links mid-gray">
+      <p>Below you will find pages that utilize the taxonomy term “Tags”</p>
+    </div>
+  </article>
+  <div class="mw8 center">
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+    </section>
+  </div>
+</main><footer class="site-footer" role="contentinfo">
+  <div class="section-wrap footer-inner">
+    <span>&copy; 2026 Satyakam Mohanty</span>
+    <span>Designed for clarity. Ready for your details.</span>
+  </div>
+</footer></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

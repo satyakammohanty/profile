@@ -1,0 +1,158 @@
+{{ define "main" }}
+{{- $profile := hugo.Data.profile -}}
+
+<section class="hero section-wrap">
+  <div class="hero-copy">
+    <p class="section-eyebrow">{{ $profile.hero.badge }}</p>
+    <h1>{{ $profile.hero.name }}</h1>
+    <p class="hero-title">{{ $profile.hero.title }}</p>
+    <p class="hero-summary">{{ $profile.hero.summary }}</p>
+
+    <div class="hero-actions">
+      {{- range $profile.hero.ctas -}}
+        <a class="button {{ .style }}" href="{{ .href }}">{{ .label }}</a>
+      {{- end -}}
+    </div>
+  </div>
+
+  <div class="hero-panel">
+    <div class="hero-badge">Portfolio Snapshot</div>
+    <div class="stat-grid">
+      {{- range $profile.hero.stats -}}
+        <article class="stat-card">
+          <span class="stat-value">{{ .value }}</span>
+          <span class="stat-label">{{ .label }}</span>
+        </article>
+      {{- end -}}
+    </div>
+  </div>
+</section>
+
+<section id="impact" class="content-section section-wrap">
+  <div class="section-heading">
+    <p class="section-eyebrow">{{ $profile.impact.eyebrow }}</p>
+    <h2>{{ $profile.impact.title }}</h2>
+  </div>
+
+  <div class="impact-grid">
+    {{- range $profile.impact.cards -}}
+      <article class="impact-card">
+        <div class="impact-icon">{{ .icon }}</div>
+        <div>
+          <div class="impact-value">{{ .value }}</div>
+          <div class="impact-label">{{ .label }}</div>
+        </div>
+        <p>{{ .description }}</p>
+      </article>
+    {{- end -}}
+  </div>
+</section>
+
+<section id="experience" class="content-section section-wrap">
+  <div class="section-heading">
+    <p class="section-eyebrow">{{ $profile.experience.eyebrow }}</p>
+    <h2>{{ $profile.experience.title }}</h2>
+  </div>
+
+  <div class="timeline">
+    {{- range $profile.experience.items -}}
+      <article class="timeline-card">
+        <div class="timeline-meta">{{ .period }}</div>
+        <h3>{{ .role }}</h3>
+        <div class="timeline-company">{{ .company }}</div>
+        <ul>
+          {{- range .bullets -}}
+            <li>{{ .text }}</li>
+          {{- end -}}
+        </ul>
+      </article>
+    {{- end -}}
+  </div>
+</section>
+
+<section id="skills" class="content-section section-wrap">
+  <div class="section-heading">
+    <p class="section-eyebrow">{{ $profile.skills.eyebrow }}</p>
+    <h2>{{ $profile.skills.title }}</h2>
+  </div>
+
+  <div class="skills-grid">
+    {{- range $profile.skills.groups -}}
+      <article class="skills-card">
+        <h3>{{ .title }}</h3>
+        <div class="chip-cloud">
+          {{- range .items -}}
+            <span class="chip">{{ . }}</span>
+          {{- end -}}
+        </div>
+      </article>
+    {{- end -}}
+  </div>
+</section>
+
+<section id="certs" class="content-section section-wrap">
+  <div class="section-heading">
+    <p class="section-eyebrow">{{ $profile.certs.eyebrow }}</p>
+    <h2>{{ $profile.certs.title }}</h2>
+  </div>
+
+  <div class="cert-grid">
+    {{- range $profile.certs.certifications -}}
+      <div class="cert-card">{{ . }}</div>
+    {{- end -}}
+  </div>
+</section>
+
+<section class="content-section section-wrap">
+  <div class="section-heading">
+    <p class="section-eyebrow">{{ $profile.education.eyebrow }}</p>
+    <h2>{{ $profile.education.title }}</h2>
+  </div>
+
+  <div class="education-grid">
+    {{- range $profile.education.items -}}
+      <article class="education-card">
+        <h3>{{ .degree }}</h3>
+        <div class="education-school">{{ .school }}</div>
+        <p>{{ .note }}</p>
+      </article>
+    {{- end -}}
+  </div>
+</section>
+
+<section id="contact" class="content-section section-wrap contact-section">
+  <div class="section-heading">
+    <p class="section-eyebrow">{{ $profile.contact.eyebrow }}</p>
+    <h2>{{ $profile.contact.title }}</h2>
+  </div>
+
+  <div class="contact-card">
+    <div class="contact-links">
+      <a href="mailto:{{ $profile.contact.email }}">{{ $profile.contact.email }}</a>
+      <a href="tel:{{ replaceRE "[^0-9]" "" $profile.contact.phone }}">{{ $profile.contact.phone }}</a>
+      <a href="{{ $profile.contact.linkedin }}" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
+
+    <div class="contact-actions">
+      {{- range $profile.contact.links -}}
+        <a class="button secondary" href="{{ .href }}">{{ .label }}</a>
+      {{- end -}}
+    </div>
+
+    <p class="contact-note">{{ $profile.contact.closing }}</p>
+  </div>
+</section>
+
+<section class="content-section section-wrap mini-links">
+  <div class="section-heading">
+    <p class="section-eyebrow">Additional Links</p>
+    <h2>Jump to a section</h2>
+  </div>
+
+  <div class="mini-link-row">
+    {{- range $profile.links -}}
+      <a href="{{ .href }}">{{ .label }}</a>
+    {{- end -}}
+  </div>
+</section>
+{{ end }}
