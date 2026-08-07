@@ -1,6 +1,6 @@
 baseURL = 'http://localhost:1313/'
 locale = 'en-us'
-title = 'Satyakam Mohanty'
+title = 'Satya kam Mohanty'
 theme = 'ananke'
 
 [params]

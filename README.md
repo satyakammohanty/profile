@@ -65,11 +65,8 @@ hugo -d ../docs
 That makes Hugo write the generated site to the folder you specify instead of the default `public/`. The path is relative to the folder where you run the command, so if you run it from `sm`, `../docs` would put the output beside that folder.
 
 
-
-hugo --destination ../docs --baseURL https://pikuni.github.io/satyakammohanty/
-
-
-hugo --destination ../docs --baseURL https://satyakammohanty.github.io/profile/
+cd sm
+hugo --destination ../docs --baseURL https://satyakammohanty.github.io/docs/
 
 
 ## Customization Notes
@@ -82,3 +79,16 @@ hugo --destination ../docs --baseURL https://satyakammohanty.github.io/profile/
 ## Notes
 
 This project is intentionally static. Hugo compiles the templates and data into HTML/CSS, so there is no backend server or application runtime beyond the local Hugo development server.
+
+
+
+
+
+
+
+
+
+<!-- cd sm
+git submodule add https://github.com/<owner>/<theme-repo>.git themes/<theme-name>
+
+nomad-tech -->
