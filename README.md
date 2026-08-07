@@ -45,7 +45,24 @@ To generate the production site:
 hugo
 ```
 
-That writes the generated static files to [profile_sm/public](profile_sm/public).
+That writes the generated static files to [sm/public](sm/public).
+
+
+Use Hugo’s `--destination` flag when building production output:
+
+```bash
+hugo --destination ../docs
+```
+
+Or, with the short form:
+
+```bash
+hugo -d ../docs
+```
+
+That makes Hugo write the generated site to the folder you specify instead of the default `public/`. The path is relative to the folder where you run the command, so if you run it from `sm`, `../docs` would put the output beside that folder.
+
+
 
 ## Customization Notes
 
