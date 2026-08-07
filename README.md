@@ -69,6 +69,9 @@ That makes Hugo write the generated site to the folder you specify instead of th
 hugo --destination ../docs --baseURL https://pikuni.github.io/satyakammohanty/
 
 
+hugo --destination ../docs --baseURL https://satyakammohanty.github.io/profile/
+
+
 ## Customization Notes
 
 - Update the text, links, and section content in [profile_sm/data/profile.toml](profile_sm/data/profile.toml).
