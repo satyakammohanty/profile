@@ -51,17 +51,22 @@ That writes the generated static files to [sm/public](sm/public).
 Use Hugo’s `--destination` flag when building production output:
 
 ```bash
+cd sm
 hugo --destination ../docs
 ```
 
 Or, with the short form:
 
 ```bash
+cd sm
 hugo -d ../docs
 ```
 
 That makes Hugo write the generated site to the folder you specify instead of the default `public/`. The path is relative to the folder where you run the command, so if you run it from `sm`, `../docs` would put the output beside that folder.
 
+
+
+hugo --destination ../docs --baseURL https://pikuni.github.io/satyakammohanty/
 
 
 ## Customization Notes
