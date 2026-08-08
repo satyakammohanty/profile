@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{- $profile := hugo.Data.profile -}}
+{{- $photo := resources.Get "media/satya_photo.jpg" -}}
 
 <section class="hero section-wrap">
   <div class="hero-copy">
@@ -16,6 +17,9 @@
   </div>
 
   <div class="hero-panel">
+    <div class="hero-photo-card">
+      <img src="{{ $photo.RelPermalink }}" alt="Satya Kam Mohanty" class="hero-photo" />
+    </div>
     <div class="hero-badge">Portfolio Snapshot</div>
     <div class="stat-grid">
       {{- range $profile.hero.stats -}}
