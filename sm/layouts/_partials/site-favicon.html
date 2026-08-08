@@ -1,0 +1,20 @@
+{{- $favicon := resources.Get "media/favicon_io/favicon.ico" -}}
+{{- $icon16 := resources.Get "media/favicon_io/favicon-16x16.png" -}}
+{{- $icon32 := resources.Get "media/favicon_io/favicon-32x32.png" -}}
+{{- $appleTouchIcon := resources.Get "media/favicon_io/apple-touch-icon.png" -}}
+{{- $manifest := resources.Get "media/favicon_io/site.webmanifest" -}}
+{{- with $favicon }}
+<link rel="icon" href="{{ .RelPermalink }}" sizes="any">
+{{- end }}
+{{- with $icon16 }}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ .RelPermalink }}">
+{{- end }}
+{{- with $icon32 }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ .RelPermalink }}">
+{{- end }}
+{{- with $appleTouchIcon }}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ .RelPermalink }}">
+{{- end }}
+{{- with $manifest }}
+<link rel="manifest" href="{{ .RelPermalink }}">
+{{- end }}

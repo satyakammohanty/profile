@@ -4,7 +4,8 @@ title = 'Satya kam Mohanty'
 theme = 'ananke'
 
 [params]
-description = 'A single-page portfolio site inspired by a modern executive profile.'
+description = 'Transformation leader with 24 years of experience in strategy execution, delivery excellence, organizational change, digital transformation, offshoring and outsourcing, and site leadership.'
+favicon = "media/favicon_io/favicon.ico"
 body_classes = 'profile-shell'
 
 	[params.ananke]

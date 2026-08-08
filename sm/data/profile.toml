@@ -17,8 +17,8 @@ value = '70%'
 label = 'DevOps & AI adoption'
 
 [[hero.stats]]
-value = '10%'
-label = 'ESAT improvement'
+value = '50%'
+label = 'Efficiency improvement'
 
 [[hero.ctas]]
 label = 'Get in Touch'
@@ -35,25 +35,25 @@ eyebrow = 'Measurable Results'
 title = 'Impact at a Glance'
 
 [[impact.cards]]
-icon = '▲'
+icon = '💰'
 value = 'Financial'
 label = 'Impact'
 description = 'Delivered 60% cost reduction through disciplined execution and operating model changes.'
 
 [[impact.cards]]
-icon = '◆'
+icon = '📈'
 value = 'Operational'
 label = 'Excellence'
 description = 'Improved efficiency by 50% through standardization, automation, and stronger governance.'
 
 [[impact.cards]]
-icon = '●'
+icon = '🌐'
 value = 'Digital'
 label = 'Adoption'
 description = 'Advanced DevOps and AI adoption to reach 70% digital enablement.'
 
 [[impact.cards]]
-icon = '✦'
+icon = '👥'
 value = 'People'
 label = 'Experience'
 description = 'Improved ESAT by 10% through people transformation and organizational change.'
