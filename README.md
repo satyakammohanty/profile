@@ -66,8 +66,44 @@ That makes Hugo write the generated site to the folder you specify instead of th
 
 ```bash
 cd sm
-hugo --destination ../docs --baseURL https://satyakammohanty.github.io/docs/
+hugo --destination ../docs --baseURL https://satyakammohanty.github.io/
 ```
+
+To run a local server in Python 3, open your terminal or command prompt, navigate to your target folder, and run `python -m http.server`.This instantly hosts the contents of your current directory. You can access it in your web browser at `http://localhost:8000`
+
+```bash
+cd ..
+cd profile
+cd docs
+python -m http.server
+```
+
+
+## Build And Deploy (Github)
+
+To build the site for production and publish it from the GitHub Pages-ready output folder:
+
+```bash
+cd sm
+hugo --destination ../docs --baseURL https://satyakammohanty.github.io/
+```
+
+This generates the static site into [docs](docs), which is the folder used for deployment.
+
+To preview the built output locally:
+
+```bash
+cd docs
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/` in your browser.
+
+To deploy:
+
+1. Commit the changes in the repository.
+2. Push the repository to GitHub.
+3. Make sure GitHub Pages is configured to serve files from [docs](docs).
 
 ## Customization Notes
 

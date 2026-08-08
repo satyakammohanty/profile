@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Satya kam Mohanty</title>
-		<link>https://satyakammohanty.github.io/docs/</link>
+		<link>https://satyakammohanty.github.io/</link>
 		<description>Recent content on Satya kam Mohanty</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://satyakammohanty.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://satyakammohanty.github.io/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
